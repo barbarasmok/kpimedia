@@ -1,0 +1,572 @@
+body {
+    font-family: 'Lato', 'sans-serif';
+    min-height: 100vh;
+    color: #353434;
+}
+
+.container {
+    width: 100%;
+    padding-right: 0; 
+    padding-left: 0; 
+    margin-right: auto;
+    margin-left: auto;
+}
+
+a {
+    color: #8AC140;
+    text-decoration: none;
+    -webkit-text-decoration-skip: none;
+}
+
+a:hover {
+    color: #8AC140;
+    text-decoration: none;
+    -webkit-text-decoration-skip: none;
+}
+
+.fixed-top {
+    top: 0;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    transition:background-color 200ms linear; 
+}
+
+.fixed-top.scrolled {
+    background-color: rgb(247, 247, 247) !important;
+    transition: background-color 150ms linear;
+    color: white;
+    border-bottom: none;
+}
+
+.navbar {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+    background-color: rgb(252, 252, 252) !important;
+}
+
+.navbar-expand-xl .navbar-nav .nav-link {
+    font-size: 1.1rem;
+    color: #353434;
+}
+
+.navbar-expand-xl .navbar-nav .nav-link:hover {
+    color: #8AC140;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #8AC140;
+    font-weight: 900;
+}
+
+.navbar-toggler-icon {
+    color: #353434;
+}
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0; 
+    padding-bottom: 0; 
+    margin-right: 0; 
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+.p-2 {
+    padding-left: .2rem!important;
+    padding-right: .1rem!important;
+}
+
+.p-2 path:hover {
+    fill: #353434;
+}
+
+.socialIcons {
+    display: flex;
+}
+
+/* FOOTER*/
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    background-color: #353434;
+    padding: 100px 30px 50px;
+    color: white;
+    max-height: 100vh;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
+    margin-top: 50px;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+.infoText {
+    margin-top: 25px;
+    font-size: 0.8rem;
+}
+
+footer ul li {
+    list-style: none;
+    padding-top: 2px;
+    font-size: 0.8rem;
+    text-align: left;
+    padding-left: 0;
+    color: white;
+}
+
+.footerLink {
+    color: white;  
+}
+
+footer ul li:hover {
+    color: #8AC140;  
+    text-decoration: none;
+    list-style: none;
+}
+
+.copyrigthText {
+    padding-top: 0;
+    font-size: 0.8rem;
+}
+
+address {
+    font-size: 0.8rem;
+}
+
+h4 {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.info {
+    margin-right: 0;
+}
+
+/* MAIN*/
+.secondBtn,
+.secondBtn-yellow {
+    margin-left: 5px;
+    font-weight: 900;
+}
+
+.btn-primary {
+    background-color: #8AC140;
+    color: #FFF;
+    border: none;
+    font-weight: 900;
+}
+
+.btn-primary:hover,
+.btnStart:hover {
+    background-color: #353434;
+}
+
+.btn-primary-yellow,
+.secondBtn-yellow {
+    background-color: #FFE800;
+    color: #353434;
+    border: none;
+    font-weight: 900;
+}
+
+.btn-primary-yellow:hover,
+.secondBtn-yellow:hover {
+    background-color: #353434;
+    color: #FFF;
+}
+
+.btnStart {
+    background-color: #8AC140;
+    color: #FFF;
+    border: none;
+    font-weight: 900;
+    text-align: center;
+    margin: 10px 20px 50px;
+    display: block;
+    width: 50%;
+    font-size: 1.5rem;
+}
+
+.socialIconsCard {
+    margin: auto;
+    margin-bottom: auto;
+    display: flex;
+    text-align: center;
+    width: 20%;
+}
+
+.card-text {
+    font-size: 1.1rem;
+}
+
+.display-4 {
+    margin: 100px 20px 150px;
+    font-weight: 800;
+}
+
+.webHeadline {
+    font-size: 2.7rem;
+    margin: 100px auto;
+    font-weight: 800;
+    text-align: left;
+    padding: 20px;
+}
+
+.divider {
+    margin-bottom: 200px;
+}
+
+.citiesUl{
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    margin: 15px auto;
+    padding: 5px 20px;
+    flex-wrap: wrap;
+
+}
+
+.citiesUl a {
+    color: #353434;
+    font-size: 0.9rem;
+    margin: auto;
+    text-align: center;
+}
+
+
+.CTA {
+    margin: auto 20px;
+    font-size: 1.5rem;
+    line-height: 1.3;
+}
+
+.jumbotron {
+    padding: 5rem 1rem;
+    margin-bottom: 2rem;
+    background-color: #353434;
+    background-image: url(../images/contactbanner.jpg);
+    border-radius: .3rem;
+    height: 600px;
+}
+
+.display-3 {
+    font-weight: 900;
+    margin: auto;
+    padding: 20px;
+    line-height: 1.1;
+    font-size: 4rem;
+}
+
+.lead {
+    margin-top: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 20px;
+}
+
+.display-5 {
+    margin: 80px auto;
+    font-weight: 800;
+}
+
+.form-contact-tablet,
+.form-contact-desktop {
+    display: none;
+}
+
+.ad {
+    width: 100%;
+    margin: auto;
+}
+
+.header {
+    margin: 50px auto 0;
+    text-align: center;
+}
+
+.centerHeading {
+    margin: 20px 20px 5px;
+    font-weight: 800;
+    font-size: 4rem;
+}
+
+.centerSub {
+    font-size: 1.3rem;
+    width: 80%;
+    margin: 0 auto 100px;
+}
+
+.centerSubsm {
+    font-size: 1.3rem;
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.bbIcon {
+    text-align: center;
+    margin: 100px auto 0;
+    width: 50%;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.gmbSub {
+    margin: 0 auto 0;
+    font-size: 1.2rem;
+    line-height: 1.3;
+    text-align: left;
+    padding: 20px;
+}
+
+.gmbHeadline {
+    width: 90%;
+    margin: 100px auto 0;
+    font-weight: 800;
+    text-align: left;
+    font-size: 3rem;
+}
+
+.dividersm {
+    width: 90%;
+}
+
+.gmbCard {
+    border: none;
+}
+
+.card-title-gmb {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+
+@media (min-width: 728px) {
+
+    .form-contact-mobile {
+        display:none;
+    }
+
+    .form-contact-tablet {
+        display: block;
+    }
+
+    .infoText {
+        margin-top: 25px;
+        font-size: 0.9rem;
+    }
+
+    .info {
+        margin-right: 15px;
+    }
+
+    .copyrigthText,
+    address,
+    footer ul li {
+        font-size: 0.9rem;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+    }
+
+    .display-3 {
+        font-weight: 900;
+        width: 70%;
+        margin: auto;
+        line-height: 1.1;
+        padding:0;
+        font-size: 4.5rem;
+    }
+    
+    .lead {
+        margin-top: 10px;
+        font-size: 1.2rem;
+        font-weight: 500;
+        padding: 0;
+    }
+    
+    .display-5 {
+        margin: 80px auto;
+        font-weight: 800;
+    }
+
+    .jumbotron {
+        padding: 10rem 1rem;
+    }
+
+    .webHeadline {
+        margin-top: 150px;
+        text-align: center;
+    }
+
+    .CTA {
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 1.3;
+    }
+    
+    .centerSub {
+        margin-bottom: 100px;
+        font-size: 1.5rem;
+        width: 100%;
+        line-height: 1.3;
+    }
+
+    .centerSubsm {
+        margin-bottom: 100px;
+        font-size: 1.5rem;
+        width: 100%;
+        line-height: 1.3;
+    }
+
+    .bbIcon {
+        text-align: center;
+        margin: 100px auto 0;
+        width: 25%;
+    }
+
+    .gmbSub {
+        margin: 0 auto 20px;
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .gmbHeadline {
+        margin: 150px auto 0;
+        text-align: center;
+        font-size: 3rem;
+    }
+
+    .btnStart {
+        background-color: #8AC140;
+        color: #FFF;
+        border: none;
+        font-weight: 900;
+        text-align: center;
+        margin: 0 auto 50px;
+        display: block;
+        width: 30%;
+        font-size: 1.5rem;
+    }
+
+    .dividersm {
+        width: 35%;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    .navbar-expand-xl .navbar-nav .nav-link {
+        padding-right: .7rem;
+        padding-left: .7rem;
+    }
+
+    .form-contact-tablet {
+        display: none;
+    }
+
+    .form-contact-desktop {
+        display: block;
+    }
+
+    .display-3 {
+        width: 50%;
+    }
+    
+    .display-4 {
+        margin: 200px auto 150px;
+        font-weight: 800;
+    }
+
+    .webHeadline {
+        width: 90%;
+        margin: 200px auto 150px;
+        font-weight: 800;
+        text-align: center;
+        padding: 0;
+        font-size: 4rem;
+    }
+
+    .gmbHeadline {
+        width: 90%;
+        margin: 200px auto 20px;
+        font-weight: 800;
+        text-align: center;
+        padding: 0;
+        font-size: 4rem;
+    }
+
+    h4 {
+        margin-bottom: 25px;
+    }
+
+    .CTA {
+        margin: auto;
+        width: 80%;
+        font-size: 2.5rem;
+    }
+
+    .navbar {
+        border-bottom: 1px solid rgb(252, 252, 252);
+    } 
+
+    footer {
+        position: relative;
+        padding: 100px 0;
+    }
+
+    .infoText {
+        font-size: 1rem;
+    }
+
+    .copyrigthText,
+    address,
+    footer ul li {
+        font-size: 1rem;
+    }
+
+    .copyrigthText {
+        padding-top: 20px;
+    }
+
+    h4 {
+        font-size: 1.5rem;
+    }
+
+    .centerSubsm {
+        width: 80%;
+        margin: 0 auto 50px;
+        font-size: 2.5rem;
+    }
+
+    .gmbSub {
+        width: 70%;
+        margin: 0 auto 20px;
+        font-size: 1.5rem;
+        line-height: 1.3;
+        text-align: center;
+    }
+
+    .btnStart {
+        margin-bottom: 100px;
+    }
+
+    .dividersm {
+        width: 50%;
+    }
+    
+}
