@@ -93,6 +93,11 @@ a:hover {
     display: flex;
 }
 
+
+.card-body {
+    padding: 20px 20px 40px;
+}
+
 /* FOOTER*/
 footer {
     position: relative;
@@ -168,6 +173,8 @@ h4 {
     border: none;
     font-weight: 900;
     margin-top:20px;
+    width: 30%;
+    padding: 15px;
 }
 
 .btn-primary:hover,
@@ -334,6 +341,13 @@ h4 {
     color:#8AC140;
 }
 
+.cardlink {
+    color: #353434;
+}
+
+.cardlink:hover {
+    color: #8AC140;
+}
 
 .display-5 {
     margin: 80px auto;
@@ -579,7 +593,7 @@ h4 {
 
     .headline2 {
         margin-top: 100px;
-        width: 50%;
+        width: 40%;
     }
 
     .lead {
@@ -587,8 +601,8 @@ h4 {
     }
 
     .lead2 {
-        width: 70%;
-        margin-bottom: 50px;
+        width: 60%;
+        margin-bottom: 100px;
     }
 
     .webHeadline {
