@@ -98,6 +98,13 @@ a:hover {
     padding: 20px 20px 40px;
 }
 
+.cardSection2 {
+    background-color: #FCFCFC;
+    border: none;
+    margin: 15px;
+    padding: 15px;
+}
+
 /* FOOTER*/
 footer {
     position: relative;
@@ -173,7 +180,7 @@ h4 {
     border: none;
     font-weight: 900;
     margin-top:20px;
-    width: 30%;
+    width: 90%;
     padding: 15px;
 }
 
@@ -281,9 +288,23 @@ h4 {
     margin: 40px auto 5px;
 }
 
+.icon-top2 {
+    width: 15%;
+    margin: 10px auto 5px;
+}
+
 #section1 {
     background-color: #353434;
     padding: 0 15px 80px;
+}
+
+#section2 {
+    padding: 0 15px 80px;
+}
+
+#section3 {
+    background-color: #FCFCFC;
+    padding: 80px 15px;
 }
 
 /* .jumbotron {
@@ -343,6 +364,7 @@ h4 {
 
 .cardlink {
     color: #353434;
+    width: 50%;
 }
 
 .cardlink:hover {
@@ -395,6 +417,21 @@ h4 {
 
 .card-title {
     font-weight: 700;
+    width: 80%;
+    margin: 10px auto 15px;
+}
+
+.card-deck {
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    /* margin-right: -15px; */
+    /* margin-left: -15px; */
+    margin: 10px auto 50px;
+    padding: 20px;
+}
+
+.col-md-4 {
+    margin-bottom: 30px;
 }
 
 .gmbSub {
@@ -428,6 +465,11 @@ h4 {
 
 
 @media (min-width: 728px) {
+
+    .btn-primary,
+    .btn-secondary {
+        width: 30%;
+    }
 
     .form-contact-mobile {
         display:none;
@@ -483,7 +525,7 @@ h4 {
         color: #353434;
         text-align: center;
         width: 80%;
-        margin: 10px auto;
+        margin: 10px auto 100px;
     }
     
     .display-5 {
@@ -559,6 +601,10 @@ h4 {
         text-align: center;
         width: 80%;
         font-size: 3.5rem;
+    }
+
+    .headline2 {
+        margin-top: 100px;
     }
 
     .italic{
