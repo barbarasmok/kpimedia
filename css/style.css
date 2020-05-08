@@ -98,8 +98,12 @@ a:hover {
     padding: 20px 20px 40px;
 }
 
+.card {
+    border: none;
+}
+
 .cardSection2 {
-    background-color: #FCFCFC;
+    background-color: rgb(236, 236, 236);
     border: none;
     margin: 15px;
     padding: 15px;
@@ -173,8 +177,19 @@ h4 {
     font-weight: 900;
 }
 
+.btn-primary-yellow {
+    background-color: #FFE800;
+    color: #FFF;
+    border: none;
+    font-weight: 900;
+    margin-top:20px;
+    width: 90%;
+    padding: 15px;
+}
+
 .btn-primary,
-.btn-secondary {
+.btn-secondary,
+.secondBtn {
     background-color: #8AC140;
     color: #FFF;
     border: none;
@@ -190,8 +205,10 @@ h4 {
     color: #353434;
 }
 
-.btn-secondary:hover {
+.btn-secondary:hover,
+.secondBtn:hover {
     background-color: #353434;
+    color: white;
 }
 
 
@@ -222,15 +239,15 @@ h4 {
 }
 
 .socialIconsCard {
-    margin: auto;
     margin-bottom: auto;
     display: flex;
-    text-align: center;
-    width: 20%;
+    text-align: left;
+    width: 80%;
 }
 
 .card-text {
     font-size: 1.1rem;
+    margin-top: 20px;
 }
 
 .display-4
@@ -255,17 +272,18 @@ h4 {
     display: flex;
     text-decoration: none;
     list-style: none;
-    margin: 15px auto;
-    padding: 5px 20px;
+    margin-top: 15px;
+    padding: 5px 0;
     flex-wrap: wrap;
-
+    text-align: left;
 }
 
 .citiesUl a {
     color: #353434;
     font-size: 0.9rem;
-    margin: auto;
-    text-align: center;
+    /* margin: auto; */
+    padding: 5px 5px 5px 0;
+    text-align: left;
 }
 
 
@@ -289,7 +307,12 @@ h4 {
 }
 
 .icon-top2 {
-    width: 15%;
+    width: 50%;
+    margin: 10px auto 15px;
+}
+
+.icon-top3 {
+    width: 50%;
     margin: 10px auto 15px;
 }
 
@@ -298,14 +321,27 @@ h4 {
     padding: 0 15px 80px;
 }
 
-#section2 {
+#section2,
+#section5,
+#section7,
+#section9 {
     padding: 0 15px 80px;
 }
 
-#section3 {
-    background-color: #FCFCFC;
-    padding: 80px 15px;
+#section3,
+#section6,
+#section8 {
+    background-color: rgb(236, 236, 236);
+    padding: 100px 15px;
     margin-top: 50px;
+}
+
+#section4 {
+    background-color: #353434;
+    background-image: url(../images/contactbanner.jpg);
+    padding: 150px 15px;
+    margin: 0 auto 50px;
+    height: 600px;
 }
 
 /* .jumbotron {
@@ -325,7 +361,8 @@ h4 {
     font-size: 4rem;
 }
 
-.lead {
+.lead,
+.lead3 {
     margin-top: 0;
     font-size: 1rem;
     padding: 20px;
@@ -420,6 +457,25 @@ h4 {
     font-weight: 700;
     width: 80%;
     margin: 10px auto 15px;
+    font-size: 1.5rem;
+}
+
+.card-title3 {
+    font-weight: 700;
+    width: 80%;
+    margin-top: 10px;
+    font-size: 2rem;
+}
+
+.card-img {
+    width: 100%;
+    border-radius: calc(.25rem - 1px);
+    margin-right: 0;
+}
+
+.card-body {
+    padding: 20px 20px 40px;
+    margin-left: 0;
 }
 
 .card-deck {
@@ -428,10 +484,10 @@ h4 {
     /* margin-right: -15px; */
     /* margin-left: -15px; */
     margin: 10px auto 50px;
-    padding: 20px;
+    padding: 0;
 }
 
-.col-md-4 {
+.col-lg-4 {
     margin-bottom: 30px;
 }
 
@@ -465,7 +521,7 @@ h4 {
 }
 
 .media {
-    width: 60%;
+    width: 90%;
     margin: 30px auto;
 }
 
@@ -477,8 +533,33 @@ h4 {
 
 @media (min-width: 728px) {
 
+    .card-deck {
+        margin: 10px auto 50px;
+        padding: 20px;
+    }
+
+    .card-img {
+        margin-right: 50px;
+    }
+
+    .icon-top2 {
+        width: 15%;
+        margin: 10px auto 15px;
+    }
+
+    .icon-top3 {
+        width: 25%;
+        margin: 30px auto 15px;
+    }
+
+    .media {
+        width: 60%;
+        margin: 30px auto;
+    }
+
     .btn-primary,
-    .btn-secondary {
+    .btn-secondary,
+    .btn-primary-yellow {
         width: 30%;
     }
 
@@ -531,6 +612,14 @@ h4 {
         margin: 10px auto;
     }
 
+    .lead3 {
+        padding: 0;
+        color: white;
+        text-align: center;
+        width: 80%;
+        margin: 10px auto;
+    }
+
     .lead2 {
         padding: 0;
         color: #353434;
@@ -558,6 +647,13 @@ h4 {
         font-size: 1.5rem;
         line-height: 1.3;
     }
+
+    .CTA2 {
+        text-align: center;
+        font-size: 1.5rem;
+        line-height: 1.3;
+    }
+    
     
     .centerSub {
         margin-bottom: 100px;
@@ -575,8 +671,8 @@ h4 {
 
     .bbIcon {
         text-align: center;
-        margin: 100px auto 0;
-        width: 25%;
+        margin: 150px auto 0;
+        width: 20%;
     }
 
     .gmbSub {
@@ -649,7 +745,7 @@ h4 {
     }
 
     .headline2 {
-        margin-top: 100px;
+        margin-top: 150px;
         width: 40%;
     }
 
@@ -657,9 +753,13 @@ h4 {
         width: 40%;
     }
 
+    .lead3 {
+        width: 60%;
+    }
+
     .lead2 {
         width: 60%;
-        margin-bottom: 100px;
+        margin-bottom: 80px;
     }
 
     .webHeadline {
@@ -685,10 +785,17 @@ h4 {
     }
 
     .CTA {
+        margin: 200px auto 100px;
+        width: 80%;
+        font-size: 2.5rem;
+    }
+
+    .CTA2 {
         margin: auto;
         width: 80%;
         font-size: 2.5rem;
     }
+
 
     .navbar {
         border-bottom: 1px solid rgb(252, 252, 252);
@@ -697,6 +804,7 @@ h4 {
     footer {
         position: relative;
         padding: 100px 0;
+        margin-top: 300px;
     }
 
     .infoText {
