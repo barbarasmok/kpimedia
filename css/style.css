@@ -475,6 +475,13 @@ h4 {
     font-size: 2rem;
 }
 
+.card-title4 {
+    font-weight: 700;
+    width: 80%;
+    margin-top: 10px;
+    font-size: 3rem;
+}
+
 .card-img {
     width: 100%;
     border-radius: calc(.25rem - 1px);
@@ -537,7 +544,11 @@ h4 {
     color: #8AC140;
 }
 
-
+.borderBottom {
+    margin-bottom: 50px;
+    border-bottom: solid 4px #8AC140;
+    width: 50%;
+}
 
 @media (min-width: 728px) {
 
