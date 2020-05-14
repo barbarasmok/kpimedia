@@ -288,7 +288,7 @@ h4 {
 
 
 .CTA {
-    margin: auto 20px;
+    margin: 50px 20px;
     font-size: 1.5rem;
     line-height: 1.3;
 }
@@ -546,7 +546,7 @@ h4 {
 
 .borderBottom {
     margin-bottom: 50px;
-    border-bottom: solid 4px #8AC140;
+    border-bottom: solid 8px #8AC140;
     width: 50%;
 }
 
@@ -556,7 +556,6 @@ h4 {
         margin: 10px auto 50px;
         padding: 20px;
     }
-
     .card-img {
         margin-right: 50px;
     }
@@ -665,6 +664,7 @@ h4 {
         text-align: center;
         font-size: 1.5rem;
         line-height: 1.3;
+        margin: 80px 20px;
     }
 
     .CTA2 {
