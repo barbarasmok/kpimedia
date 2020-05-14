@@ -344,6 +344,14 @@ h4 {
     height: 600px;
 }
 
+.jumbotronImage {
+    background-color: #353434;
+    background-image: url(../images/contactbanner2.jpg);
+    padding: 150px 15px;
+    margin: 0 auto 50px;
+    height: 600px; 
+}
+
 /* .jumbotron {
     padding: 5rem 1rem;
     margin-bottom: 2rem;
@@ -741,7 +749,7 @@ h4 {
     }
 
     .display-4 {
-        width: 40%;
+        width: 50%;
     }
 
     .headline2 {
