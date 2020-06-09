@@ -370,7 +370,7 @@ h4 {
 .indexbanner {
     background-color: #353434;
     background-image: url(../images/banners/index.png);
-    padding: 150px 15px;
+    padding: 80px 15px;
     margin: 0 auto 50px;
     height: 600px;
 }
@@ -586,6 +586,10 @@ h4 {
     .card-body {
         padding: 20px 20px 40px;
         margin-left: 0;
+    }
+
+    .indexbanner {
+        padding: 150px 15px;
     }
     
     .card-deck {
