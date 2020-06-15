@@ -392,6 +392,14 @@ h4 {
     height: 600px; 
 }
 
+.bckgreen {
+    background-color: #353434;
+    background-image: url(../images/banners/green.png);
+    padding: 100px 15px;
+    margin: 200px auto 50px;
+    height: 400px; 
+}
+
 /* .jumbotron {
     padding: 5rem 1rem;
     margin-bottom: 2rem;
