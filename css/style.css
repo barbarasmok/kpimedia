@@ -113,7 +113,8 @@ a:hover {
 h1,
 .secondaryHeadline,
 .secondaryHeadlineWhite,
-.thirdHeadline {
+.thirdHeadline,
+.fourthHeadline {
     margin: 200px auto 60px;
     font-weight: 800;
     color:#353434;
@@ -144,6 +145,10 @@ h2 {
     width: 50%;
 }
 
+.fourthHeadline {
+    margin: 150px auto 30px;
+    width: 90%;
+}
 
 .mainText {
     font-size: 1.1rem;
@@ -464,11 +469,40 @@ h4 {
     height: 425px; 
 }
 
+
 .bckgrey {
     background-color: #353434;
     padding: 100px 15px;
-    margin: 80px auto 150px;
+    margin: 60px auto 150px;
     height: 450px; 
+}
+
+#contact {
+    background-color: #353434;
+    padding: 100px 15px;
+    margin: 60px auto 0px;
+}
+
+.card-header {
+    font-size: 1.1rem;
+    margin: auto;
+    text-align: center;
+    width: 60%;
+    background-color: rgb(251, 251, 251);
+}
+
+.btn-link {
+    font-weight: 400;
+    color: black;
+    background-color: transparent;
+    font-weight: 900;
+}
+
+.btn-link:hover {
+    color: #8AC140;
+    text-decoration: none;
+    background-color: transparent;
+    border-color: transparent;
 }
 
 
