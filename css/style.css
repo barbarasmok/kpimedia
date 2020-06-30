@@ -252,7 +252,8 @@ h4 {
 
 .btn-primary,
 .btn-secondary,
-.secondBtn {
+.secondBtn,
+.btn-tertiary {
     background-color: #8AC140;
     color: #FFF;
     border: none;
@@ -268,6 +269,10 @@ h4 {
     width: 70%;
 }
 
+.btn-tertiary {
+    width: 30%;
+}
+
 .btn-primary:hover,
 .btnStart:hover {
     background-color: #353434;
@@ -280,6 +285,12 @@ h4 {
     color: white;
 }
 
+
+
+.btn-tertiary:hover {
+    background-color: white;
+    color: #353434;
+}
 
 .btn-primary-yellow,
 .secondBtn-yellow {
