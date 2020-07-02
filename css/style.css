@@ -172,6 +172,11 @@ h2 {
     width: 50%;
 }
 
+.FAQsList {
+    margin: auto;
+    width: 40%;
+}
+
 /* FOOTER*/
 footer {
     position: relative;
