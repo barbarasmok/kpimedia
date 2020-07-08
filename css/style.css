@@ -274,6 +274,10 @@ h4 {
     padding: 15px;
 }
 
+.secondBtn {
+    margin-top:0;
+}
+
 .btn-secondary {
     margin: auto;
     text-align: center;
@@ -477,7 +481,7 @@ h4 {
 
 .jumbotronImage {
     background-color: #353434;
-    background-image: url(../images/banners/contactbanner2.jpg);
+    background-image: url(../images/banners/contact_banner.png);
     padding: 150px 15px;
     margin: 0 auto 50px;
     height: 600px; 
