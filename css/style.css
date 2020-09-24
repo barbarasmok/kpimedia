@@ -423,7 +423,7 @@ h4 {
     padding: 5rem 1rem;
     margin-bottom: 0;
     background-color: #353434;
-    height: 600px;
+    height: 500px;
     border-radius: 0rem;
 }
 
@@ -476,7 +476,7 @@ h4 {
     background-image: url(../images/banners/index.png);
     padding: 80px 15px;
     margin: 0 auto 50px;
-    height: 600px;
+    height: 500px;
 }
 
 .jumbotronImage {
@@ -1095,7 +1095,8 @@ h4 {
     }
 
     .lead2 {
-        width: 60%;
+        margin-top:80px;
+        width: 70%;
         margin-bottom: 80px;
     }
 
