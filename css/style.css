@@ -39,7 +39,6 @@ a:hover {
     color: white;
     border-bottom: none;
 }
-
 .navbar {
     display: -ms-flexbox;
     display: flex;
@@ -52,12 +51,10 @@ a:hover {
     padding: .5rem 1rem;
     background-color: rgb(252, 252, 252) !important;
 }
-
 .navbar-expand-xl .navbar-nav .nav-link {
     font-size: 1.1rem;
     color: #353434;
 }
-
 .navbar-expand-xl .navbar-nav .nav-link:hover {
     color: #8AC140;
 }
@@ -66,7 +63,6 @@ a:hover {
     color: #8AC140;
     font-weight: 900;
 }
-
 .navbar-toggler-icon {
     color: #353434;
 }
@@ -79,37 +75,28 @@ a:hover {
     line-height: inherit;
     white-space: nowrap;
 }
-
 .p-2 {
     padding-left: .2rem!important;
     padding-right: .1rem!important;
 }
-
 .p-2 path:hover {
     fill: #353434;
 }
-
 .socialIcons {
     display: flex;
 }
-
-
 .card-body {
     padding: 20px 20px 40px;
 }
-
 .card {
     border: none;
 }
-
 .cardSection2 {
     background-color: rgb(251, 251, 251);
     border: none;
     margin: 15px;
     padding: 15px;
 }
-
-
 h1,
 .secondaryHeadline,
 .secondaryHeadlineWhite,
@@ -122,13 +109,16 @@ h1,
     width: 100%;
     font-size: 2.2rem;
 }
-
-
 h1 {
     width: 95%;
     font-size: 2rem;
 }
-
+.subheadline {
+    color: white;
+    font-size: 1.7rem;
+    width: 70%;
+    margin: 0 auto;
+}
 .secondaryHeadline {
     text-align: left;
     margin: 50px auto 60px;
@@ -476,7 +466,7 @@ h4 {
     background-image: url(../images/banners/index.png);
     padding: 80px 15px;
     margin: 0 auto 50px;
-    height: 500px;
+    height: 600px;
 }
 
 .jumbotronImage {
@@ -990,7 +980,7 @@ h4 {
     .headline2 {
         text-align: center;
         width: 80%;
-        font-size: 3.5rem;
+        font-size: 4rem;
     }
 
     .headline2,
@@ -1055,7 +1045,7 @@ h4 {
         font-size: 1.1rem;
         margin: auto;
         text-align: center;
-        width: 60%;
+        width: 100%;
         background-color: rgb(251, 251, 251);
     }
     
