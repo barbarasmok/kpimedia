@@ -343,7 +343,7 @@ h4 {
 }
 
 .headline4 {
-    margin: 50px auto 60px;
+    margin: 50px auto 20px;
     font-weight: 800;
     color:#353434;
     text-align: center;
@@ -433,7 +433,7 @@ h4 {
 }
 
 #section1 {
-    margin-top: 100px;
+    margin-top: 10px;
     background-color: #fff;
     padding: 0 15px 80px;
 }
@@ -863,7 +863,7 @@ h4 {
     }
 
     #section1 {
-        padding: 0 0 80px;
+        padding: 0 0 30px;
     }
     
     .display-3 {
@@ -1085,9 +1085,9 @@ h4 {
     }
 
     .lead2 {
-        margin-top:80px;
+        margin-top:30px;
         width: 70%;
-        margin-bottom: 80px;
+        margin-bottom: 40px;
     }
 
     .webHeadline {
